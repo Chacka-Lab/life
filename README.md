@@ -12,7 +12,7 @@ Goroutine shutdown and resource cleanup are the responsibility of the goroutines
 ## Install
 
 ``` bash
-go get github.com/BinGo-Lab-Team/life
+go get github.com/Chacka-Lab/life
 ```
 
 ## Problem
@@ -30,7 +30,7 @@ During program shutdown, Go code commonly runs into subtle and dangerous issues:
 > and all previously started goroutines can be waited for  
 > without violating `sync.WaitGroup` semantics.**
 
-## Non-Goals (Important)
+## Non-Goals
 
 `life` **does NOT guarantee**:
 
@@ -63,7 +63,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/BinGo-Lab-Team/life"
+	"github.com/Chacka-Lab/life"
 )
 
 func main() {
@@ -143,11 +143,11 @@ It is not a general concurrency framework.
 
 This project released under [MIT License](./LICENSE)
 
-[godoc-badge]: https://pkg.go.dev/badge/github.com/BinGo-Lab-Team/life.svg
-[godoc-link]: https://pkg.go.dev/github.com/BinGo-Lab-Team/life
+[godoc-badge]: https://pkg.go.dev/badge/github.com/Chacka-Lab/life.svg
+[godoc-link]: https://pkg.go.dev/github.com/Chacka-Lab/life
 
-[goreport-badge]: https://goreportcard.com/badge/github.com/BinGo-Lab-Team/life
-[goreport-link]: https://goreportcard.com/report/github.com/BinGo-Lab-Team/life
+[goreport-badge]: https://goreportcard.com/badge/github.com/Chacka-Lab/life
+[goreport-link]: https://goreportcard.com/report/github.com/Chacka-Lab/life
 
-[license-badge]: https://img.shields.io/github/license/BinGo-Lab-Team/life
-[license-link]: https://github.com/BinGo-Lab-Team/life/blob/main/LICENSE
+[license-badge]: https://img.shields.io/github/license/Chacka-Lab/life
+[license-link]: https://github.com/Chacka-Lab/life/blob/main/LICENSE
