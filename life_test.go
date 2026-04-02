@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/BinGo-Lab-Team/life"
+	"github.com/Chacka-Lab/life"
 )
 
 // TestTryGoBeforeShutdown verifies that TryGo succeeds
