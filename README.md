@@ -1,7 +1,6 @@
 # life
 
 [![Go Reference][godoc-badge]][godoc-link]
-[![Go Report Card][goreport-badge]][goreport-link]
 [![License][license-badge]][license-link]
 
 `life` is a **minimal goroutine lifecycle convergence utility**.
@@ -145,9 +144,6 @@ This project released under [MIT License](./LICENSE)
 
 [godoc-badge]: https://pkg.go.dev/badge/github.com/Chacka-Lab/life.svg
 [godoc-link]: https://pkg.go.dev/github.com/Chacka-Lab/life
-
-[goreport-badge]: https://goreportcard.com/badge/github.com/Chacka-Lab/life
-[goreport-link]: https://goreportcard.com/report/github.com/Chacka-Lab/life
 
 [license-badge]: https://img.shields.io/github/license/Chacka-Lab/life
 [license-link]: https://github.com/Chacka-Lab/life/blob/main/LICENSE
