@@ -140,7 +140,7 @@ It is not a general concurrency framework.
 
 ## License
 
-This project released under [MIT License](./LICENSE)
+MIT
 
 [godoc-badge]: https://pkg.go.dev/badge/github.com/Chacka-Lab/life.svg
 [godoc-link]: https://pkg.go.dev/github.com/Chacka-Lab/life
